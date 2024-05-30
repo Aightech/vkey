@@ -1,0 +1,12 @@
+[submodule "lib/leapmotion"]
+	path = lib/leapmotion
+	url = git@github.com:Aightech/leapmotion
+	branch = main
+[submodule "lib/naptx"]
+	path = lib/naptx
+	url = git@github.com:Aightech/naptx
+	branch = main
+[submodule "lib/touchscreen"]
+	path = lib/touchscreen
+	url = git@github.com:Aightech/touchscreen
+	branch = main

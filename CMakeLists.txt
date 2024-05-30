@@ -113,6 +113,15 @@ else ()
   endif()
 
   
+  find_package(SFML REQUIRED COMPONENTS graphics window system)
+  if (SFML_FOUND)
+    list(APPEND EXTRA_LIBS "sfml-graphics" "sfml-window" "sfml-system" "sfml-audio")
+  else ()
+    message("Couldn't find SFML library")
+  endif (SFML_FOUND)
+
+
+  
 
 
   ###### Search for Subdirectories/Libraries ######

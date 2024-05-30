@@ -39,11 +39,11 @@ int main(int argc, char **argv)
 
   // Create the keys
   int nbKey = 5;
-  int width = 100;
-  int spacing = 20;
-  Vec3 origin(300+W_WIDTH / 2 - (nbKey * width + (nbKey - 1) * spacing) / 2, W_HEIGHT / 2, 90);
-  Vec3 key_dim(width/4, width, 2*width);
-  Vec3 key_spacing(spacing, -width, -2*width);
+  int width = 50;
+  int spacing = 10;
+  Vec3 origin(W_WIDTH / 2 - (nbKey * width + (nbKey - 1) * spacing) / 2, W_HEIGHT / 2, 200);
+  Vec3 key_dim(width, width, width);
+  Vec3 key_spacing(spacing, -width, -width);
   std::vector<std::string> sounds_paths;
   for (int i = 0; i < 5; i++)
   {
